@@ -1795,6 +1795,110 @@ input, select, textarea {
 		font-size: 2em;
 	}
 
+/* skill bar */
+	.progress {
+		height: 6px;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		background: #f2f3f7;
+		overflow: visible; 
+		
+	}
+	  
+	.progress-bar {
+		width: 0%;
+		height: 100%;
+		background: #2c98f0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		font-size: 12px;
+		line-height: 1.2;
+		color: #000;
+		font-weight: 600;
+		text-align: right;
+		position: relative;
+		overflow: visible;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		-ms-border-radius: 8px;
+		border-radius: 8px; 
+		float: left;
+	}
+	
+	.progress-bar:after {
+		  position: absolute;
+		  top: -2px;
+		  right: 0;
+		  width: 10px;
+		  height: 10px;
+		  content: '';
+		  background: #2c98f0;
+		  -webkit-border-radius: 50%;
+		  -moz-border-radius: 50%;
+		  -ms-border-radius: 50%;
+		  border-radius: 50%; 
+	}
+	
+	.progress-bar span {
+		  position: absolute;
+		  top: -22px;
+		  right: 0; 
+	}
+	
+	.progress-bar.color-1 {
+		  background: #83c1f0; }
+
+	.progress-bar.color-1:after {
+		  background: #83c1f0; }
+	
+	.progress-bar.color-1 span {
+		  color: #83c1f0; }
+
+	.progress-bar.color-2 {
+		  background: #d37272; }
+
+	.progress-bar.color-2:after {
+		  background: #d37272; }
+
+	.progress-bar.color-2 span {
+		  color: #d37272; }
+
+	.progress-bar.color-3 {
+		  background: #f8d487; }
+
+	.progress-bar.color-3:after {
+		  background: #f8d487; }
+
+	.progress-bar.color-3 span {
+		  color: #f8d487; }
+
+	.progress-bar.color-4 {
+		  background: #9f59ac; }
+
+	.progress-bar.color-4:after {
+		  background: #9f59ac; }
+
+	.progress-bar.color-4 span {
+		  color: #9f59ac; }
+
+	.progress-bar.color-5 {
+		  background: #50d4c7; }
+
+	.progress-bar.color-5:after {
+		  background: #50d4c7; }
+
+	.progress-bar.color-5 span {
+		  color: #50d4c7; }
+
+	.progress-bar.color-6 {
+		  background: #4d60b4; }
+
+	.progress-bar.color-6:after {
+		  background: #4d60b4; }
+
+	.progress-bar.color-6 span {
+		  color: #4d60b4; }
+
 /* Form */
 
 	form {

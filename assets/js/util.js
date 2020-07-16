@@ -457,7 +457,7 @@
 					event.preventDefault();
 
 					$this.find('select')
-						.val($('option:first').val());
+					 	.val($('option:first').val());
 
 					$this.find('input,textarea')
 						.each(function() {
